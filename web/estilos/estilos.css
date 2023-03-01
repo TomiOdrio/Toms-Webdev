@@ -242,12 +242,11 @@ nav{
     margin: 0;
 }
 .mancha{
-    top: 35%;
-    position: fixed;
-    bottom: 30%;
-    right: 5%;
-    rotate: 120deg;
+    position: absolute;
+    top: 100vw;
+    right: 30vw;
     width: 150vw;
+    rotate: 120deg;
     z-index: -5;
     animation: animate_img 6s linear infinite;
 }
