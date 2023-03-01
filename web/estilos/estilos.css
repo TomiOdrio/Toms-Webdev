@@ -129,7 +129,6 @@ nav{
 }
 @keyframes hide{
     50%{
-        font-size: 1vw;
         opacity: 0;
     }
     100%{
@@ -150,7 +149,6 @@ nav{
         opacity: 0;
     }
     50%{
-        font-size: 1vw;
         opacity: 0;
     }
     100%{
