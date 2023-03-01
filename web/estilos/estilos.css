@@ -438,11 +438,8 @@ nav{
     position: absolute;
     text-align: center;
     opacity: 0;
-    padding: 0;
+    padding: 1vw 0;
     margin: auto;
-}
-.container_p p{
-    padding: 2vw 0;
 }
 .tarjeta:hover{
     background-color: #daa7f4;
