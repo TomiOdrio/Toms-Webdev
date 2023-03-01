@@ -441,6 +441,9 @@ nav{
     padding: 0;
     margin: auto;
 }
+.container_p p{
+    padding-top: 1vw;
+}
 .tarjeta:hover{
     background-color: #daa7f4;
     transition: 1s;
