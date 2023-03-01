@@ -434,11 +434,12 @@ nav{
     text-align: center;
 }
 .container_p{
-    width: 90%;
+    width: 70%;
     position: absolute;
     text-align: center;
     opacity: 0;
-    padding: 7vw;
+    padding: 0;
+    margin: auto;
 }
 .tarjeta:hover{
     background-color: #daa7f4;
