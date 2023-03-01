@@ -328,7 +328,7 @@ nav{
 }
 .texto h2{
     width: 90%;
-    padding: 1vw;
+    padding: 2vw;
 }
 #inverse{
     flex-direction: row-reverse;
