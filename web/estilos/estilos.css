@@ -729,7 +729,7 @@ footer .logo h2{
     }
     /* SOBRE MI */
     .subtitulo{
-        margin: 10vw 0vw 5vw 50vw;    
+        margin: 5vw 0vw 5vw 50vw;    
         font-size: 3vw;
         width: 30%;
     }
@@ -747,6 +747,12 @@ footer .logo h2{
     #inverse .texto{
         border-left:0.5vw solid rgb(244, 224, 247);
     }
+    .texto h2{
+        padding:0.5vw;
+    }
+    .texto p{
+        padding: 0 0.5vw;
+    }
     .icon{
         width: 20%;
     }
@@ -758,7 +764,7 @@ footer .logo h2{
         margin-top: 0.5vw;
     }
     .buttons{
-        margin: 7vw 0;
+        margin: 7vw 0 4vw;
         flex-direction: row;
         justify-content: center;
     }
@@ -810,9 +816,9 @@ footer .logo h2{
     .titulo{
         width: 30%;
         padding-bottom: 1vw;
-        margin:10vw auto 5vw;
+        margin:8vw auto 6vw;
         border-bottom: 0.2vw solid #8e27c1;
-        font-size:3vw;
+        font-size:2vw;
     }
     .redes{
         display: flex;
