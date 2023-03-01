@@ -442,7 +442,7 @@ nav{
     margin: auto;
 }
 .container_p p{
-    padding-top: 1vw;
+    padding: 1.5vw 0;
 }
 .tarjeta:hover{
     background-color: #daa7f4;
