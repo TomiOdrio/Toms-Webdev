@@ -561,6 +561,7 @@ textarea{
     max-height: 20vw;
     min-width: 85%;
     max-width: 85%;
+    padding-top: 1.5vw;
 }
 #boton{
     width: 25%;
