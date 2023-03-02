@@ -5,6 +5,28 @@
 }
 body{
     background-color: #fff;
+    font-family: 'Lora', serif;
+}
+h1{
+    font-size: 20vw;
+}
+h2{
+    font-size: 10vw;
+}
+h3{
+    font-size: 8vw;
+}
+h4{
+    font-size: 6vw;
+}
+h5{
+    font-size: 4vw;
+}
+h6{
+    font-size: 3vw;
+}
+p{
+    font-size: 4vw;
 }
 
 /* HEADER */
@@ -13,7 +35,6 @@ body{
     text-align: center;
 }
 .logo h1{
-    font-size: 20vw;
     background-color: rgb(241, 238, 238);
     text-transform: uppercase;
     color: #3f075b;
@@ -23,8 +44,7 @@ body{
 .logo span{
     color: rgb(96, 96, 242);
 }
-.logo h2{
-    font-size: 8vw;
+.logo h3{
     background-color: rgb(241, 238, 238);
     text-transform: uppercase;
     color: #3f075b;
@@ -197,7 +217,6 @@ nav{
 .bienvenida{
     width: 50%;
     padding: 1vw;
-    font-size: 6vw;
     margin: auto;
     text-align: center;
     margin-top: 15vw;
@@ -224,11 +243,9 @@ nav{
     margin: 10vw 7vw 7vw;
 }
 .topline{
-    font-size: 6vw;
     color: #57585a;
 }
-.col1 h1{
-    font-size: 10vw;
+.col1 h2{
     color: #57585a;
     padding-bottom: 2vw;
 }
@@ -259,16 +276,15 @@ nav{
     background-color: rgb(241, 238, 238);
     height: 150vw;
 }
-.project h2{
+.project h3{
     padding:10vw;
     color: #57585a;
-    font-size: 8vw;
     text-align: center;
     width: 80%;
     margin-left:10%;
     text-transform: uppercase;
 }
-.project h2 span{
+.project h3 span{
     color: #3f075b;
 }
 #carouselExample{
@@ -306,7 +322,6 @@ nav{
 .subtitulo{
     margin: 10vw 7vw 10vw 40vw;    
     text-align: right;
-    font-size: 8vw;
     color: #57585a;
 }
 .bloque{
@@ -326,7 +341,7 @@ nav{
     align-items: center;
     justify-content: center;
 }
-.texto h2{
+.texto h4{
     width: 90%;
     padding: 2vw;
 }
@@ -411,7 +426,7 @@ nav{
     padding: 2vw;
     text-align: center;
     box-shadow:0 5px 5px rgba(0,0,0,0.2);
-    font-size: 6vw;
+    font-size: 5.5vw;
     margin: 3vw 0;
 }
 .button:hover{
@@ -433,6 +448,9 @@ nav{
     width: 90%;
     padding: 3vw;
     text-align: center;
+}
+.linea h4{
+    font-size: 5vw;
 }
 .container_p{
     width: 100%;
@@ -472,8 +490,8 @@ nav{
     padding: 5vw 0 0;
     margin: 10vw 0;
 }
-.proy h2{
-    padding: 0 2vw 3vw;
+.proy h4{
+    padding: 0 2vw;
     text-align: center;
 }
 .proy p{
@@ -513,7 +531,7 @@ nav{
 .redes i{
     font-size: 10vw;
 }
-.redes h4{
+.redes h5{
     width: 90%;
     text-align: center;
 }
@@ -538,16 +556,14 @@ form{
     border-radius: 6vw;
     margin-bottom: 10vw;
 }
-form h2{
+form h4{
     width: 80%;
     text-align: center;
     border-bottom:0.3vw solid #3f075b;
     margin: 5% 10%;
-    font-size: 5vw;
 }
 form input,textarea{
     width: 85%;
-    font-family: 'Times New Roman', Times, serif;
     font-size: 3vw;
     text-align: left;
     padding-left: 1vw;
@@ -567,11 +583,11 @@ textarea{
     width: 25%;
     height: 5vw;
     text-align: center;
+    padding-bottom: 6vw;
     margin-left: 37.5%;
     margin-bottom: 4vw;
     background-color: black;
     border-radius: 10vw;
-    font-family: 'Times New Roman', Times, serif;
     color: white;
     font-size: 3.5vw;
 }
@@ -604,26 +620,45 @@ footer a i:hover{
 }
 footer .logo{
     padding: 2vw 3vw;
-    margin: 0 3vw;
-    border-radius: 50px;
+    margin: 0 2vw;
+    border-radius: 20px;
     background-color: rgb(241, 238, 238);
 }
-footer .logo h1{
-    font-size: 5vw;
+footer .logo h5{
     padding: 0;
+    margin: 0;
 }
-footer .logo h2{
-    font-size: 3vw;
+footer .logo h6{
     padding: 0;
+    margin: 0;
 }
 @media screen and (min-width:500px){
+    h1{
+        font-size: 7vw;
+    }
+    h2{
+        font-size: 5vw;
+    }
+    h3{
+        font-size: 3vw;
+    }
+    h4{
+        font-size: 2vw;
+    }
+    h5{
+        font-size: 1.5vw;
+    }
+    h6{
+        font-size: 1vw;
+    }
+    p{
+        font-size: 1.5vw;
+    }
     /* HEADER */
     .logo h1{
-        font-size: 7vw;
         padding-top: 1vw;
     }
-    .logo h2{
-        font-size: 3vw;
+    .logo h3{
         padding-bottom: 3vw;
     }
     .onda{
@@ -669,7 +704,6 @@ footer .logo h2{
     .bienvenida{
         width: 30%;
         padding: 1vw;
-        font-size: 2vw;
         margin: auto;
         text-align: center;
         margin-top: 7vw;
@@ -690,13 +724,6 @@ footer .logo h2{
         margin: 0 10vw;
         font-size: 1.5vw;
     }
-    .topline{
-        font-size: 2vw;
-    }
-    .col1 h1{
-        font-size: 5vw;
-        padding-bottom: 1vw;
-    }
     .yo{
         width: 30vw;
     }
@@ -716,9 +743,8 @@ footer .logo h2{
     .project{
         height: 45vw;
     }
-    .project h2{
+    .project h3{
         padding:5vw;
-        font-size: 4vw;
     }
     #carouselExample{
         width: 20%;
@@ -737,7 +763,6 @@ footer .logo h2{
     /* SOBRE MI */
     .subtitulo{
         margin: 5vw 0vw 5vw 50vw;    
-        font-size: 3vw;
         width: 30%;
     }
     .bloque{
@@ -754,7 +779,7 @@ footer .logo h2{
     #inverse .texto{
         border-left:0.5vw solid rgb(244, 224, 247);
     }
-    .texto h2{
+    .texto h4{
         padding:0.5vw;
     }
     .texto p{
@@ -790,6 +815,9 @@ footer .logo h2{
         width: 90%;
         padding: 1.5vw;
     }
+    .linea h4{
+        font-size: 2vw;
+    }
     .container_p{
         padding: 0;
     }
@@ -804,7 +832,7 @@ footer .logo h2{
         margin: 5vw 1vw;
         box-shadow: 0 1vw 1vw rgba(0,0,0,0.1);
     }
-    .proy h2{
+    .proy h4{
         padding: 0 1vw 1vw;
         height: 5vw;
         overflow: hidden;
@@ -820,7 +848,6 @@ footer .logo h2{
         padding-bottom: 1vw;
         margin:8vw auto 6vw;
         border-bottom: 0.2vw solid #8e27c1;
-        font-size:2vw;
     }
     .redes{
         display: flex;
@@ -835,12 +862,11 @@ footer .logo h2{
     .redes i{
         font-size: 3vw;
     }
-    .redes h4{
+    .redes h5{
         font-size: 1vw;
         width: 100%;
     }
     .contacto{
-        font-size: 2vw;
         width: 20%;
         margin: 7vw auto 5vw;
     }
@@ -849,10 +875,9 @@ footer .logo h2{
         border: 0.3vw solid rgba(91, 6, 122, 0.126);
         margin-bottom: 4vw;
     }
-    form h2{
+    form h4{
         width: 50%;
         margin: 5% auto;
-        font-size: 2.5vw;
     }
     form input,textarea{
         width: 80%;
@@ -865,10 +890,13 @@ footer .logo h2{
     textarea{
         min-width: 80%;
         max-width: 80%;
+        min-height: 7vw;
+        max-height: 12vw;
     }
     #boton{
         width: 25%;
         height: 3vw;
+        padding-bottom: 3vw;
         margin-bottom: 2vw;
         margin-left: 37.5%;
         font-size: 1.5vw;
@@ -884,11 +912,5 @@ footer .logo h2{
     footer .logo{
         padding: 0.3vw 1vw;
         margin: 0 1.5vw;
-    }
-    footer .logo h1{
-        font-size: 2vw;
-    }
-    footer .logo h2{
-        font-size: 1vw;
     }
 }
