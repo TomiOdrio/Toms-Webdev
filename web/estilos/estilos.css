@@ -790,13 +790,7 @@ footer .logo h2{
         padding: 1.5vw;
     }
     .container_p{
-        width: 50%;
         padding: 0;
-        margin:auto;
-    }
-    .container_p p{
-        width: 90%;
-        margin: auto;
     }
     /* PROYECTOS */
     .proyectos{
