@@ -55,7 +55,7 @@ nav{
     display: flex;
 }
 .nav_item{
-    font-size: 4vw;
+    font-size: 3.5vw;
     transition: 0.2s;
     width: 18vw;
 }
@@ -498,7 +498,7 @@ nav{
 .redes{
     background-color: #daa7f4;
     margin:auto;
-    width: 40%;
+    width: 50%;
     border-radius: 50px;
     box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
 }
@@ -553,11 +553,11 @@ form input,textarea{
     margin-left: 15%;
     margin-top: 2.5vw;
     border: 0.1vw solid black;
-    height: 3.5vw;
+    height: 4.5vw;
 }
 textarea{
-    min-height: 6vw;
-    max-height: 10vw;
+    min-height: 7.5vw;
+    max-height: 11vw;
     min-width: 70%;
     max-width: 70%;
 }
