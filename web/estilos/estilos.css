@@ -546,9 +546,9 @@ form h2{
     font-size: 5vw;
 }
 form input,textarea{
-    width: 70%;
+    width: 85%;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 4vw;
+    font-size: 3vw;
     text-align: left;
     margin-left: 15%;
     margin-top: 2.5vw;
@@ -556,10 +556,10 @@ form input,textarea{
     height: 7vw;
 }
 textarea{
-    min-height: 10vw;
-    max-height: 15vw;
-    min-width: 70%;
-    max-width: 70%;
+    min-height: 15vw;
+    max-height: 20vw;
+    min-width: 85%;
+    max-width: 85%;
 }
 #boton{
     width: 25%;
